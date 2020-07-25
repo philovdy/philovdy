@@ -29,4 +29,5 @@ More on [philovdy.github.io](https://philovdy.github.io/github-pages-with-jekyll
 More on [til.simonwillison.net](https://til.simonwillison.net/)
 </tr></table>
 
-<a href="https://github.com/philovdy/philovdy/actions"><img src="https://github.com/philovdy/philovdy/workflows/Build%20README/badge.svg" align="right" alt="Build README"></a> <a href="https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/">How this works</a>
+<a href="https://github.com/philovdy/philovdy/actions"><img src="https://github.com/philovdy/philovdy/workflows/Build%20README/badge.svg" align="right" alt="Build README"></a> 
+<a href="https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/">How this works</a>
