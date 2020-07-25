@@ -11,21 +11,27 @@ def created_changed_times(repo_path, ref="master"):
     created_changed_times = {}
     repo = git.Repo(repo_path, odbt=git.GitDB)
     commits = reversed(list(repo.iter_commits(ref)))
+    
+    print('commits ', commits)
+    
     for commit in commits:
         dt = commit.committed_datetime
         affected_files = list(commit.stats.files.keys())
-        for filepath in affected_files:
-            if filepath not in created_changed_times:
-                created_changed_times[filepath] = {
-                    "created": dt.isoformat(),
-                    "created_utc": dt.astimezone(timezone.utc).isoformat(),
-                }
-            created_changed_times[filepath].update(
-                {
-                    "updated": dt.isoformat(),
-                    "updated_utc": dt.astimezone(timezone.utc).isoformat(),
-                }
-            )
+        
+        print('affected_files ', affected_files)
+        
+#         for filepath in affected_files:
+#             if filepath not in created_changed_times:
+#                 created_changed_times[filepath] = {
+#                     "created": dt.isoformat(),
+#                     "created_utc": dt.astimezone(timezone.utc).isoformat(),
+#                 }
+#             created_changed_times[filepath].update(
+#                 {
+#                     "updated": dt.isoformat(),
+#                     "updated_utc": dt.astimezone(timezone.utc).isoformat(),
+#                 }
+#             )
             
     return created_changed_times
 
