@@ -103,7 +103,7 @@ def fetch_tils():
 
 
 def fetch_blog_entries():
-    entries = feedparser.parse("https://philovdy.github.io/github-pages-with-jekyll/feed.xml")["entry"]
+    entries = feedparser.parse("https://philovdy.github.io/github-pages-with-jekyll/feed.xml")["entries"]
     return [
         {
             "title": entry["title"],
