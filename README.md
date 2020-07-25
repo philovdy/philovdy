@@ -1,20 +1,8 @@
 
 
-<table><tr><td valign="top" width="33%">
+<table><tr>
 
-### Recent releases
-<!-- recent_releases starts -->
-* [twitter-to-sqlite 0.21.3](https://github.com/dogsheep/twitter-to-sqlite/releases/tag/0.21.3) - 2020-07-23
-* [datasette-clone 0.5](https://github.com/simonw/datasette-clone/releases/tag/0.5) - 2020-07-22
-* [datasette-insert-api 0.4](https://github.com/simonw/datasette-insert-api/releases/tag/0.4) - 2020-07-21
-* [datasette-copyable 0.2](https://github.com/simonw/datasette-copyable/releases/tag/0.2) - 2020-07-21
-* [datasette-auth-tokens 0.2.2](https://github.com/simonw/datasette-auth-tokens/releases/tag/0.2.2) - 2020-07-20
-* [github-to-sqlite 2.4](https://github.com/dogsheep/github-to-sqlite/releases/tag/2.4) - 2020-07-18
-* [datasette-plugin-demos 0.4](https://github.com/simonw/datasette-plugin-demos/releases/tag/0.4) - 2020-07-14
-* [datasette-auth-passwords 0.3](https://github.com/simonw/datasette-auth-passwords/releases/tag/0.3) - 2020-07-13
-<!-- recent_releases ends -->
-More [recent releases](https://github.com/simonw/simonw/blob/main/releases.md)
-</td><td valign="top" width="34%">
+
 
 ### On my blog
 <!-- blog starts -->
@@ -24,8 +12,9 @@ More [recent releases](https://github.com/simonw/simonw/blob/main/releases.md)
 * [This post demonstrates post content styles](https://philovdy.github.io/github-pages-with-jekyll/junk/2016/05/20/this-post-demonstrates-post-content-styles.html) - 2016-05-20
 * [Welcome To Jekyll](https://philovdy.github.io/github-pages-with-jekyll/2016/05/20/welcome-to-jekyll.html) - 2016-05-20
 <!-- blog ends -->
-More on [simonwillison.net](https://simonwillison.net/)
-</td><td valign="top" width="33%">
+More on [Philovdy.github.io](https://philovdy.github.io/github-pages-with-jekyll/)
+</tr>
+<tr>
 
 ### TIL
 <!-- tils starts -->
@@ -36,6 +25,6 @@ More on [simonwillison.net](https://simonwillison.net/)
 * [Password hashing in Python with pbkdf2](https://github.com/simonw/til/blob/master/python/password-hashing-with-pbkdf2.md) - 2020-07-14
 <!-- tils ends -->
 More on [til.simonwillison.net](https://til.simonwillison.net/)
-</td></tr></table>
+</tr></table>
 
 <a href="https://github.com/simonw/simonw/actions"><img src="https://github.com/simonw/simonw/workflows/Build%20README/badge.svg" align="right" alt="Build README"></a> <a href="https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/">How this works</a>
