@@ -18,11 +18,11 @@ More [recent releases](https://github.com/simonw/simonw/blob/main/releases.md)
 
 ### On my blog
 <!-- blog starts -->
-* [Weeknotes: datasette-copyable, datasette-insert-api](http://simonwillison.net/2020/Jul/23/datasette-copyable-datasette-insert-api/) - 2020-07-23
-* [Weeknotes: datasette-auth-passwords, a Datasette logo and a whole lot more](http://simonwillison.net/2020/Jul/17/weeknotes-datasette-logo/) - 2020-07-17
-* [Building a self-updating profile README for GitHub](http://simonwillison.net/2020/Jul/10/self-updating-profile-readme/) - 2020-07-10
-* [Weeknotes: SBA Covid-19 PPP loans, Datasette talks, Datasette plugin upgrades](http://simonwillison.net/2020/Jul/9/sba-covid-19-ppp-loans/) - 2020-07-09
-* [Datasette 0.45: The annotated release notes](http://simonwillison.net/2020/Jul/1/datasette-045/) - 2020-07-01
+* [1st Blog Post](https://philovdy.github.io/github-pages-with-jekyll/2020/07/23/my-first-blog-post.html) - 2020-07-23
+* [My Example Post](https://philovdy.github.io/github-pages-with-jekyll/2016/05/20/my-example-post.html) - 2016-05-20
+* [Some articles are just so long they deserve a really long title to see if things will break well](https://philovdy.github.io/github-pages-with-jekyll/misc/2016/05/20/super-long-article.html) - 2016-05-20
+* [This post demonstrates post content styles](https://philovdy.github.io/github-pages-with-jekyll/junk/2016/05/20/this-post-demonstrates-post-content-styles.html) - 2016-05-20
+* [Welcome To Jekyll](https://philovdy.github.io/github-pages-with-jekyll/2016/05/20/welcome-to-jekyll.html) - 2016-05-20
 <!-- blog ends -->
 More on [simonwillison.net](https://simonwillison.net/)
 </td><td valign="top" width="33%">
