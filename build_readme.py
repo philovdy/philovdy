@@ -1,13 +1,10 @@
-from python_graphql_client import GraphqlClient
 import feedparser
 import httpx
-import json
 import pathlib
 import re
 import os
 
 root = pathlib.Path(__file__).parent.resolve()
-client = GraphqlClient(endpoint="https://api.github.com/graphql")
 
 def replace_chunk(content, marker, chunk, inline=False):
     r = re.compile(
