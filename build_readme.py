@@ -17,8 +17,9 @@ def replace_chunk(content, marker, chunk, inline=False):
     return r.sub(chunk, content)
 
 def get_tils(til_file):
-    line_test = til_file.open().read()
-    print(line_test)
+    with open(til_file, "r") as ins:  
+        for line in ins:
+            print(line_test)
 
 def fetch_blog_entries():
     entries = feedparser.parse("https://philovdy.github.io/github-pages-with-jekyll/feed.xml")["entries"]
