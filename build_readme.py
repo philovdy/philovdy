@@ -17,9 +17,16 @@ def replace_chunk(content, marker, chunk, inline=False):
     return r.sub(chunk, content)
 
 def get_tils(til_file):
-    with open(til_file, "r") as ins:  
-        for line in ins:
-            print(line_test)
+    
+#     for filepath in root.glob("*/*.md"):
+#         fp = filepath.open()
+#         title = fp.readline().lstrip("#").strip()
+#         body = fp.read().strip()
+#         path = str(filepath.relative_to(root))    
+    
+#     with open(til_file, "r") as ins:  
+#         for line in ins:
+#             print(line_test)
 
 def fetch_blog_entries():
     entries = feedparser.parse("https://philovdy.github.io/github-pages-with-jekyll/feed.xml")["entries"]
@@ -35,6 +42,7 @@ def fetch_blog_entries():
 
 if __name__ == "__main__":
     readme = root / "README.md"
+    print('root is ', root)
     
     til_readme = "https://github.com/philovdy/til/blob/master/README.md"
 
