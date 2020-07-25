@@ -17,6 +17,7 @@ def replace_chunk(content, marker, chunk, inline=False):
     return r.sub(chunk, content)
 
 def get_tils(til_file):
+    print('til_file', til_file)
     
 #     for filepath in root.glob("*/*.md"):
 #         fp = filepath.open()
