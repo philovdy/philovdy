@@ -2,7 +2,7 @@
 
 <table><tr>
 
-
+---
 
 ### On my blog
 <!-- blog starts -->
@@ -12,10 +12,12 @@
 * [This post demonstrates post content styles](https://philovdy.github.io/github-pages-with-jekyll/junk/2016/05/20/this-post-demonstrates-post-content-styles.html) - 2016-05-20
 * [Welcome To Jekyll](https://philovdy.github.io/github-pages-with-jekyll/2016/05/20/welcome-to-jekyll.html) - 2016-05-20
 <!-- blog ends -->
-More on [Philovdy.github.io](https://philovdy.github.io/github-pages-with-jekyll/)
+More on [philovdy.github.io](https://philovdy.github.io/github-pages-with-jekyll/)
 </tr>
 <tr>
 
+---
+  
 ### TIL
 <!-- tils starts -->
 * [Implementing a "copy to clipboard" button](https://github.com/simonw/til/blob/master/javascript/copy-button.md) - 2020-07-23
@@ -27,4 +29,4 @@ More on [Philovdy.github.io](https://philovdy.github.io/github-pages-with-jekyll
 More on [til.simonwillison.net](https://til.simonwillison.net/)
 </tr></table>
 
-<a href="https://github.com/simonw/simonw/actions"><img src="https://github.com/simonw/simonw/workflows/Build%20README/badge.svg" align="right" alt="Build README"></a> <a href="https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/">How this works</a>
+<a href="https://github.com/philovdy/philovdy/actions"><img src="https://github.com/philovdy/philovdy/workflows/Build%20README/badge.svg" align="right" alt="Build README"></a> <a href="https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/">How this works</a>
