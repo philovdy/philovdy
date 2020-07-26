@@ -86,6 +86,6 @@ if __name__ == "__main__":
     rewritten = replace_chunk(readme_contents, "blog", entries_md)
 
     til_readme_contents = get_tils()
-    rewritten = replace_chunk(rewritten, "tils", tils_md)    
+    rewritten = replace_chunk(rewritten, "tils", til_readme_contents)    
     
     readme.open("w").write(rewritten)
