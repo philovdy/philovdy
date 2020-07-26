@@ -17,7 +17,8 @@ def replace_chunk(content, marker, chunk, inline=False):
     return r.sub(chunk, content)
 
 def get_tils():
-    til_readme = "https://github.com/philovdy/til/blob/master/README.md"
+    # til_readme = "https://github.com/philovdy/til/blob/master/README.md"
+    til_read = "https://raw.githubusercontent.com/philovdy/til/master/README.md"
     print('til_file', til_readme)
     
     with open(til_readme, "r") as ins:
