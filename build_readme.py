@@ -16,8 +16,13 @@ def replace_chunk(content, marker, chunk, inline=False):
     chunk = "<!-- {} starts -->{}<!-- {} ends -->".format(marker, chunk, marker)
     return r.sub(chunk, content)
 
-def get_tils(til_file):
-    print('til_file', til_file)
+def get_tils():
+    til_readme = "https://github.com/philovdy/til/blob/master/README.md"
+    print('til_file', til_readme)
+    
+    with open(til_readme, "r") as ins:
+        line = ins.readline()
+        print(line)
     
 #     for filepath in root.glob("*/*.md"):
 #         fp = filepath.open()
@@ -42,16 +47,15 @@ def fetch_blog_entries():
 
 
 if __name__ == "__main__":
-    readme = root / "README.md"
-    print('root is ', root)
     
-    til_readme = "https://github.com/philovdy/til/blob/master/README.md"
-
 #     rewritten = replace_chunk(rewritten, "tils", tils_md)
 
+    til_readme_contents = get_tils()
+
+    readme = root / "README.md"
+    print('root is ', root)
+
     readme_contents = readme.open().read()
-    
-    til_readme_contents = get_tils(til_readme)
     
     entries = fetch_blog_entries()[:5]
     entries_md = "\n".join(
