@@ -27,6 +27,12 @@ def get_tils():
     
     print(r)
     
+    til_read = "https://github.com/philovdy/til/blob/master/README.md?raw=true"
+    with open(til_read, "r") as ins:
+        line = ins.readline()
+        print(line)
+
+    
     
 #     with open(til_readme, "r") as ins:
 #         line = ins.readline()
