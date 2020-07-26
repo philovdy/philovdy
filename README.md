@@ -6,11 +6,11 @@
 
 ### On my blog
 <!-- blog starts -->
-* [1st Blog Post](https://philovdy.github.io/github-pages-with-jekyll/2020/07/23/my-first-blog-post.html) - 2020-07-23
-* [My Example Post](https://philovdy.github.io/github-pages-with-jekyll/2016/05/20/my-example-post.html) - 2016-05-20
-* [Some articles are just so long they deserve a really long title to see if things will break well](https://philovdy.github.io/github-pages-with-jekyll/misc/2016/05/20/super-long-article.html) - 2016-05-20
-* [This post demonstrates post content styles](https://philovdy.github.io/github-pages-with-jekyll/junk/2016/05/20/this-post-demonstrates-post-content-styles.html) - 2016-05-20
-* [Welcome To Jekyll](https://philovdy.github.io/github-pages-with-jekyll/2016/05/20/welcome-to-jekyll.html) - 2016-05-20
+* [1st Blog Post](https://philovdy.github.io/github-pages-with-jekyll/2020/07/23/my-first-blog-post.html)
+* [My Example Post](https://philovdy.github.io/github-pages-with-jekyll/2016/05/20/my-example-post.html)
+* [Some articles are just so long they deserve a really long title to see if things will break well](https://philovdy.github.io/github-pages-with-jekyll/misc/2016/05/20/super-long-article.html)
+* [This post demonstrates post content styles](https://philovdy.github.io/github-pages-with-jekyll/junk/2016/05/20/this-post-demonstrates-post-content-styles.html)
+* [Welcome To Jekyll](https://philovdy.github.io/github-pages-with-jekyll/2016/05/20/welcome-to-jekyll.html)
 <!-- blog ends -->
 More on [philovdy.github.io](https://philovdy.github.io/github-pages-with-jekyll/)
 </tr>
