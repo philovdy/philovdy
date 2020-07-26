@@ -27,8 +27,10 @@ More on [philovdy.github.io](https://philovdy.github.io/github-pages-with-jekyll
 * [Testing](https://github.com/philovdy/til/blob/master/python/test.md)
 * [Double hash works ?](https://github.com/philovdy/til/blob/master/python/python_check.md)
 <!-- tils ends -->
-More on [til.simonwillison.net](https://til.simonwillison.net/)
+More on [https://philovdy.github.io/til/](https://philovdy.github.io/til/)
 </tr></table>
 
 <a href="https://github.com/philovdy/philovdy/actions"><img src="https://github.com/philovdy/philovdy/workflows/Build%20README/badge.svg" align="right" alt="Build README"></a> 
+<!--
 <a href="https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/">How this works</a>
+-->
