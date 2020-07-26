@@ -3,6 +3,7 @@ import httpx
 import pathlib
 import re
 import os
+import requests
 
 root = pathlib.Path(__file__).parent.resolve()
 
@@ -19,11 +20,17 @@ def replace_chunk(content, marker, chunk, inline=False):
 def get_tils():
     # til_readme = "https://github.com/philovdy/til/blob/master/README.md"
     til_readme = "https://raw.githubusercontent.com/philovdy/til/master/README.md"
+    
     print('til_file', til_readme)
     
-    with open(til_readme, "r") as ins:
-        line = ins.readline()
-        print(line)
+    r = requests.get(til_readme)
+    
+    print(r)
+    
+    
+#     with open(til_readme, "r") as ins:
+#         line = ins.readline()
+#         print(line)
     
 #     for filepath in root.glob("*/*.md"):
 #         fp = filepath.open()
