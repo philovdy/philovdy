@@ -73,10 +73,6 @@ def fetch_blog_entries():
 
 
 if __name__ == "__main__":
-    
-#     rewritten = replace_chunk(rewritten, "tils", tils_md)
-
-    til_readme_contents = get_tils()
 
     readme = root / "README.md"
     print('root is ', root)
@@ -89,4 +85,7 @@ if __name__ == "__main__":
     )
     rewritten = replace_chunk(readme_contents, "blog", entries_md)
 
+    til_readme_contents = get_tils()
+    rewritten = replace_chunk(rewritten, "tils", tils_md)    
+    
     readme.open("w").write(rewritten)
