@@ -20,7 +20,12 @@ More on [philovdy.github.io](https://philovdy.github.io/github-pages-with-jekyll
   
 ### TIL
 <!-- tils starts -->
-None
+
+* [For testing the date sorting - 2](https://github.com/philovdy/til/blob/master/python/python_setdefault.md)
+* [For testing the date sorting - 1](https://github.com/philovdy/til/blob/master/sqlite/sql_new_11_32.md)
+* [Convert a datetime object to UTC without using pytz](https://github.com/philovdy/til/blob/master/python/convert-to-utc-without-pytz.md)
+* [Testing](https://github.com/philovdy/til/blob/master/python/test.md)
+* [Double hash works ?](https://github.com/philovdy/til/blob/master/python/python_check.md)
 <!-- tils ends -->
 More on [til.simonwillison.net](https://til.simonwillison.net/)
 </tr></table>
