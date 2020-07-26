@@ -41,10 +41,10 @@ def get_tils():
     searchObj = re.search( r'(\*+).(\[.*?\])(\(.*?\)).?-(.+)', all_text, re.M|re.I)
     print(searchObj)
 
-    with open(all_text, "r") as ins:
-        line = ins.readline()
-        searchObj = re.search( r'(\*+).(\[.*?\])(\(.*?\)).?-(.+)', line, re.M|re.I)
-        print(line)
+#     with open(all_text, "r") as ins:
+#         line = ins.readline()
+#         searchObj = re.search( r'(\*+).(\[.*?\])(\(.*?\)).?-(.+)', line, re.M|re.I)
+#         print(line)
 
 #     til_read = "https://github.com/philovdy/til/blob/master/README.md?raw=true"
     
