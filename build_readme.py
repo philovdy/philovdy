@@ -4,6 +4,7 @@ import pathlib
 import re
 import os
 import requests
+import git
 
 root = pathlib.Path(__file__).parent.resolve()
 
@@ -26,11 +27,15 @@ def get_tils():
     r = requests.get(til_readme)
     
     print(r)
+
+    page = requests.get(til_readme)
+    print (page.text)
     
-    til_read = "https://github.com/philovdy/til/blob/master/README.md?raw=true"
-    with open(til_read, "r") as ins:
-        line = ins.readline()
-        print(line)
+#     til_read = "https://github.com/philovdy/til/blob/master/README.md?raw=true"
+    
+#     with open(til_read, "r") as ins:
+#         line = ins.readline()
+#         print(line)
 
     
     
