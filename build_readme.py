@@ -30,10 +30,13 @@ def get_tils():
 
     page = requests.get(til_readme)
     print(type(page))
-    print(page.json())
+    
+    all_text = page.text
     
     print (page.text)
-        
+
+    searchObj = re.search( r'(\*+).(\[.*?\])(\(.*?\)).?-(.+)', all_text, re.M|re.I)
+    print(searchObj)
     
 #     til_read = "https://github.com/philovdy/til/blob/master/README.md?raw=true"
     
