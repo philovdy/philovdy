@@ -30,7 +30,10 @@ def get_tils():
 
     page = requests.get(til_readme)
     print(type(page))
+    print(page.json())
+    
     print (page.text)
+        
     
 #     til_read = "https://github.com/philovdy/til/blob/master/README.md?raw=true"
     
