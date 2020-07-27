@@ -2,6 +2,7 @@
 
 <table><tr>
 
+
 ---
 
 ### On my blog
@@ -34,3 +35,5 @@ More on [https://philovdy.github.io/til/](https://philovdy.github.io/til/)
 <!--
 <a href="https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/">How this works</a>
 -->
+
+<a href="https://philovdy.github.io/github-pages-with-jekyll/2020/07/23/my-first-blog-post.html/">How this works</a>
