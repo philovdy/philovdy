@@ -37,3 +37,9 @@ More on [https://philovdy.github.io/til/](https://philovdy.github.io/til/)
 -->
 
 <a href="https://philovdy.github.io/github-pages-with-jekyll/2020/07/23/my-first-blog-post.html/">How this works</a>
+
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=philovdy.visitor-badge)
+
+![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=philovdy.visitor-badge&title=viewers)
+
+[![Visits Badge](https://badges.pufler.dev/visits/philovdy/philovdy)](https://badges.pufler.dev/visits/philovdy/philovdy)
