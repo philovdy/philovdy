@@ -7,11 +7,11 @@
 
 ### On my blog
 <!-- blog starts -->
+* [Github Skyline for 2019, 2020 and 2021 (March)](https://philovdy.github.io/github-pages-with-jekyll/github/2021/03/07/Github-Skyline.html)
 * [1st Blog Post](https://philovdy.github.io/github-pages-with-jekyll/2020/07/23/my-first-blog-post.html)
 * [My Example Post](https://philovdy.github.io/github-pages-with-jekyll/2016/05/20/my-example-post.html)
 * [Some articles are just so long they deserve a really long title to see if things will break well](https://philovdy.github.io/github-pages-with-jekyll/misc/2016/05/20/super-long-article.html)
 * [This post demonstrates post content styles](https://philovdy.github.io/github-pages-with-jekyll/junk/2016/05/20/this-post-demonstrates-post-content-styles.html)
-* [Welcome To Jekyll](https://philovdy.github.io/github-pages-with-jekyll/2016/05/20/welcome-to-jekyll.html)
 <!-- blog ends -->
 More on [philovdy.github.io](https://philovdy.github.io/github-pages-with-jekyll/)
 </tr>
@@ -22,11 +22,11 @@ More on [philovdy.github.io](https://philovdy.github.io/github-pages-with-jekyll
 ### TIL
 <!-- tils starts -->
 
-* [For testing the date sorting - 2](https://github.com/philovdy/til/blob/master/python/python_setdefault.md)
-* [For testing the date sorting - 1](https://github.com/philovdy/til/blob/master/sqlite/sql_new_11_32.md)
-* [Convert a datetime object to UTC without using pytz](https://github.com/philovdy/til/blob/master/python/convert-to-utc-without-pytz.md)
-* [Testing](https://github.com/philovdy/til/blob/master/python/test.md)
-* [Double hash works ?](https://github.com/philovdy/til/blob/master/python/python_check.md)
+* [Key points of Consistent Hashing](https://github.com/vidyabhandary/til/blob/master/misc/ConsistentHashing.md)
+* [Declarative Language vs Imperative Language](https://github.com/vidyabhandary/til/blob/master/sql/DeclarativeVsImperative.md)
+* [Selecting columns](https://github.com/vidyabhandary/til/blob/master/pandas-numpy/select_columns.md)
+* [Drop rows with no values](https://github.com/vidyabhandary/til/blob/master/pandas-numpy/drop_na.md)
+* [Differences between Containers and Virtual Machines (VMs)](https://github.com/vidyabhandary/til/blob/master/misc/ContainersVsVMs.md)
 <!-- tils ends -->
 More on [https://philovdy.github.io/til/](https://philovdy.github.io/til/)
 </tr></table>
