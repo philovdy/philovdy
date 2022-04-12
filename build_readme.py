@@ -28,10 +28,10 @@ def get_tils():
     all_text = page.text
     print(all_text)
     search_re = re.findall( r'(\*+).(\[.*?\])(\(.*?\)).?-(.+)', all_text, re.M|re.I)
-    dt_til = sorted(search_re, key=lambda search_re: search_re[3], reverse=True)[:5]
+    dt_til = sorted(search_re, key=lambda search_re: search_re[3], reverse=True)[:3]
     
     print('^' * 50)
-    print('DT_TIL upto 5', dt_til)
+    print('DT_TIL upto 3', dt_til)
     
     til_md = ""
     
@@ -39,7 +39,7 @@ def get_tils():
         til_md += "\n" + i[0] + ' ' + i[1] + i[2]         
 
     print('^' * 50)
-    print('TIL_MD upto 5', til_md)
+    print('TIL_MD upto 3', til_md)
         
     print(til_md)
     
