@@ -30,13 +30,17 @@ def get_tils():
     search_re = re.findall( r'(\*+).(\[.*?\])(\(.*?\)).?-(.+)', all_text, re.M|re.I)
     dt_til = sorted(search_re, key=lambda search_re: search_re[3], reverse=True)[:5]
     
-    print(dt_til)
+    print('^' * 50)
+    print('DT_TIL upto 5', dt_til)
     
     til_md = ""
     
     for i in dt_til:
         til_md += "\n" + i[0] + ' ' + i[1] + i[2]         
-       
+
+    print('^' * 50)
+    print('TIL_MD upto 5', til_md)
+        
     print(til_md)
     
     return til_md
