@@ -19,21 +19,25 @@ def replace_chunk(content, marker, chunk, inline=False):
     return r.sub(chunk, content)
 
 def get_tils():
-    til_readme = "https://raw.githubusercontent.com/philovdy/til/master/README.md"
+    #til_readme = "https://raw.githubusercontent.com/philovdy/til/master/README.md"
+    til_readme = "https://raw.githubusercontent.com/vidyabhandary/TIL/master/README.md"
     r = requests.get(til_readme)
-    #print(r)
+    print(r)
 
     page = requests.get(til_readme)
     all_text = page.text
+    print(all_text)
     search_re = re.findall( r'(\*+).(\[.*?\])(\(.*?\)).?-(.+)', all_text, re.M|re.I)
     dt_til = sorted(search_re, key=lambda search_re: search_re[3], reverse=True)[:5]
+    
+    print(dt_til)
     
     til_md = ""
     
     for i in dt_til:
         til_md += "\n" + i[0] + ' ' + i[1] + i[2]         
        
-    #print(til_md)
+    print(til_md)
     
     return til_md
 
